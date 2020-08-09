@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+  <!-- this only grabs the path of boy.ico -->
+  <link rel="shortcut icon" href="{{ url_for('static', filename='boy.ico') }}">
+  <link rel="stylesheet" href="static/style.css">
+</head>
+<body>
+  I AM A WEB MASTER
+  <!-- using flask you can use this -->
+  <!-- this is called jinja and evalutes them as python -->
+  {{4+5}}
+  <!-- this is from the server.py  -->
+  <h4>username</h4>{{name}}
+  <h4>blog number</h4>{{post}}
+
+</body>
+<script src="static/script.js"></script>
+</html>
+
